@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="150dp">
+<ImageView
+    android:id="@+id/iv_frment_img"
+    android:layout_width="100dp"
+    android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/tv_frment_tit"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_frment_name"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

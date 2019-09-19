@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="popitem" parent="@android:style/Animation">>
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowExitAnimation">@anim/popitem</item>
+        <item name="android:windowEnterAnimation">@anim/enitem</item>
+    </style>
+    <style name="toolbarMenuStyle" parent="@style/Widget.AppCompat.PopupMenu.Overflow">>
+        <!-- Customize your theme here. -->
+            <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">10dp</item>
+        <item name="android:popupBackground">@color/material_deep_teal_500</item>
+
+    </style>
+</resources>

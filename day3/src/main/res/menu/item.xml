@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="我的音乐" android:icon="@drawable/icon_home_pager_selected"/>
+    <item android:title="我的视频" android:icon="@drawable/home"/>
+    <item android:title="我的收藏" android:icon="@drawable/bus"/>
+</menu>
